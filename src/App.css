@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -27,8 +27,6 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-
-
 
 .main {
   background: linear-gradient(to right, rgb(1, 136, 255), #01fe6e);
@@ -126,11 +124,9 @@ textarea {
     font-size: 14px;
   }
 
-  
   .container {
     width: 90%;
   }
-
 }
 
 .display2 {
@@ -156,4 +152,64 @@ textarea {
   height: 30px;
   margin: 5px;
   box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.7);
+}
+
+table {
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+table th {
+  border-bottom: 1px solid;
+  padding: 5px;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.task-table {
+  border-collapse: collapse;
+  width: 70%;
+  max-width: 500px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-table th,
+.task-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.task-table th {
+  background-color: #333;
+  color: #fff;
+}
+
+.task-link {
+  display: block;
+  background-color: #0493b0;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.task-link:hover {
+  background-color: #2f71b3;
 }
