@@ -38,8 +38,8 @@ const Task1 = () => {
 
     return (
         <div>
-            <h1 style={headingStyle}>Arjun Malhotra</h1>
-            <h2 style={subheadingStyle}>21BBS0110</h2>
+            <h1 style={headingStyle}>Aryan Sharma</h1>
+            <h2 style={subheadingStyle}>21BBS0106</h2>
             <div className="container" style={containerStyle}>
                 <h3>Responsive Paragraph Word Counter</h3>
                 <div className="textarea-container">
